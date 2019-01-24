@@ -5,9 +5,8 @@ import java.util.List;
 
 public class ArrayData {
 
-    private List<Point> arrLists = new ArrayList<>();
-
-    public List<Point> build(int width, int length){
+    public List<Point> draw(int width, int length){
+        List<Point> arrLists = new ArrayList<>();
         for (int i = 0; i <= width; i++) {
             for (int j = 0; j <= length; j++) {
                 arrLists.add(new Point(i, j));
@@ -15,6 +14,4 @@ public class ArrayData {
         }
         return arrLists;
     }
-
-
 }

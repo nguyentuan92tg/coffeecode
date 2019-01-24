@@ -29,5 +29,4 @@ public class Point {
         Point point = (Point) obj;
         return point.x == x && point.y == y;
     }
-
 }
