@@ -1,4 +1,4 @@
-package coffee.adventofcode;
+package coffee.adventofcode.day6;
 
 public class Point {
 
